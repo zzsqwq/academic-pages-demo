@@ -1,7 +1,8 @@
-baseURL: "zzsqwq.github.io/zs-academic-pages"
+baseURL: "https://zzsqwq.github.io/zs-academic-pages"
 languageCode: 'en-us'
 title: 'Shuo Zhan'
 theme: "hugo-academia"
+canonifyurls : true
 
 params:
   author: "Shuo Zhan"
