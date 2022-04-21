@@ -2,7 +2,7 @@ baseURL: "https://zzsqwq.github.io/zs-academic-pages"
 languageCode: 'en-us'
 title: 'Shuo Zhan'
 theme: "hugo-academia"
-canonifyurls : true
+canonifyURLs : true
 
 params:
   author: "Shuo Zhan"
