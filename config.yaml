@@ -7,12 +7,12 @@ canonifyURLs : true
 params:
   author: "Shuo Zhan"
   author_bio: "An undergraduate student in NWPU. Interested in Robotics and CV"
-  since: "2022"
+  since: "2019"
   avatar: "https://www.zzsqwq.cn/images/avatar.png"
   menu:
     About:
         name: "About"
-        url: /
+        url: /b
         weight: 1
     Blog:
         name: "Blog"
