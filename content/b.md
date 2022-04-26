@@ -1,6 +1,5 @@
 ---
 title: "Shuo Zhan's HomePage"
-homepage: true
 ---
 # Test
 ## Why a test?
