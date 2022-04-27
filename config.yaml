@@ -1,8 +1,40 @@
 baseURL: "https://zzsqwq.github.io/zs-academic-pages"
 languageCode: 'en-us'
+DefaultContentLanguage: en
 title: 'Shuo Zhan'
 theme: "hugo-academia"
 canonifyURLs : true
+
+languages:
+  en:
+    languageName: ":uk:"
+    weight: 1
+    contentDir: content/en
+  zh-cn:
+    languageName: ":cn:"
+    weight: 2
+    title: 'Shuo Zhan'
+    contentDir: content/zh-cn
+    params:
+      author: "战硕"
+      author_bio: "一名来自西北工业大学的本科生，对机器人及计算机视觉感兴趣。"
+      menu:
+        Index:
+          name: "Index"
+          url: /
+          weight: 1
+        About:
+          name: "About"
+          url: b/
+          weight: 3
+        Publications:
+          name: "Publications"
+          url: "/#Publications"
+          weight: 2
+        Blog:
+          name: "Blog Posts"
+          url: https://zzsqwq.cn/
+          weight: 4
 
 params:
   author: "Shuo Zhan"
@@ -10,18 +42,22 @@ params:
   since: "2019"
   avatar: "https://www.zzsqwq.cn/images/avatar.png"
   menu:
+    Index:
+        name: "Index"
+        url: /
+        weight: 1
     About:
         name: "About"
-        url: /b
-        weight: 1
-    Blog:
-        name: "Blog"
-        url: https://zzsqwq.cn/
+        url: b/
         weight: 3
     Publications:
         name: "Publications"
-        url: /#Publications
+        url: "/#Publications"
         weight: 2
+    Blog:
+        name: "Blog Posts"
+        url: "https://zzsqwq.cn/"
+        weight: 4
 
   # flink picture will load if avator link calls on error
   loading_bg:
