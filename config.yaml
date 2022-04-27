@@ -1,7 +1,7 @@
 baseURL: "https://zzsqwq.github.io/zs-academic-pages"
 languageCode: 'en-us'
 DefaultContentLanguage: en
-title: 'Shuo Zhan'
+title: "Zs's Homepage"
 theme: "hugo-academia"
 canonifyURLs : true
 
@@ -13,7 +13,7 @@ languages:
   zh-cn:
     languageName: ":cn:"
     weight: 2
-    title: 'Shuo Zhan'
+    title: "Zs's Homepage"
     contentDir: content/zh-cn
     params:
       author: "战硕"
