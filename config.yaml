@@ -1,6 +1,6 @@
 baseURL: "https://zzsqwq.github.io/zs-academic-pages"
 languageCode: 'en-us'
-DefaultContentLanguage: en
+DefaultContentLanguage: "en"
 title: "Zs's Homepage"
 theme: "hugo-academia"
 canonifyURLs : true
@@ -16,7 +16,7 @@ languages:
     title: "Zs's Homepage"
     contentDir: content/zh-cn
     params:
-      author: "战硕"
+      author: "战战硕"
       author_bio: "一名来自西北工业大学的本科生，对机器人及计算机视觉感兴趣。"
       menu:
         Index:
@@ -61,38 +61,73 @@ params:
 
   # flink picture will load if avator link calls on error
   loading_bg:
-    flink: /img/profile.png
+    flink: /images/profile.png
 
   # Social Links; 社交链接，不需要的链接直接注释掉
-  # 可以调整显示顺序
-  # 图标调用 font-awesome 4.7
+  # Find icons here : https://fontawesome.com/icons/
+  # 可以通过 weight 调整显示顺序
+  # 图标调用 font-awesome 5.13
   social:
     enable: true
-  social_links:
-    fab fa-twitter: /
-    fab fa-facebook-square: /
-    fab fa-github: /
-    fab fa-stack-overflow: /
-    fab fa-linkedin: /
-    fab fa-weibo: /
-    fab fa-weixin: /
-    fab fa-qq: /
-    fas fa-envelope: / #E-mail
-    fas fa-rss: /  #rss
+    links:
+      Github: 
+        icon: fab fa-github 
+        url: https://github.com/zzsqwq
+        weight: 1
+      Telegram:
+        icon: fab fa-telegram
+        url: https://t.me/zzsqwq
+        weight: 2
+      Envelope: #E-mail
+        icon: fas fa-envelope
+        url: mailto:trizsqwq@gmail.com
+        weight: 3
+      # RSS:
+      #   icon: fas fa-rss
+      #   url:
+      # Weixin: 
+      #   icon: fab fa-weixin
+      #   url: 
+      # QQ: 
+      #   icon: fab fa-qq
+      #   url:
+      # Twitter: 
+      #   icon: fab fa-twitter
+      #   url: /
+      # Facebook: 
+      #   icon: fab fa-facebook-square
+      #   url:
+      # StackOverflow: 
+      #   icon: fab fa-stack-overflow
+      #   url:
+      # Linkedin: 
+      #   icon: fab fa-linkedin
+      #   url:
+      # Weibo: 
+      #   icon: fab fa-weibo
+      #   url:
 
   # Additional social_links，额外添加自定义链接，可显示链接名称
-  # name: url || icon_name
+  # 可以通过 weight 更改顺序
   e_social:
     enable: true
-  e_social_links:
-    Google Scholar: / || fas fa-graduation-cap
-    ORCID: / || fab fa-orcid
+    links:
+      Google Scholar:
+        name: Google Scholar
+        url:  "#"
+        icon: "fas fa-graduation-cap"
+        weight: 1
+      ORCID:
+        name: ORCID
+        url: "#"
+        icon: "fab fa-orcid"
+        weight: 2
 
   # CV download link
   cv_dl:
     enable: true
     dir: /attaches/CV.pdf
-    description: My Detail CV.
+    description: Zs's CV
 
   # Box-shadow
   # display box-shadow on page or not
