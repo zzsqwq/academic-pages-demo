@@ -82,9 +82,10 @@ params:
         icon: fas fa-envelope
         url: mailto:trizsqwq@gmail.com
         weight: 3
-      # RSS:
-      #   icon: fas fa-rss
-      #   url:
+      RSS:
+        icon: fas fa-rss
+        url: "index.xml/"
+        weight: 4
       # Weixin: 
       #   icon: fab fa-weixin
       #   url: 
