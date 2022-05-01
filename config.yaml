@@ -1,9 +1,9 @@
-baseURL: "https://zzsqwq.github.io/academic-pages-demo/"
-languageCode: 'en-us'
-DefaultContentLanguage: "en"
-title: "Zs's Homepage"
+baseURL: "https://zzsqwq.github.io/academic-pages-demo/" 
+languageCode: 'en-us'  # http://www.rssboard.org/rss-language-codes
+DefaultContentLanguage: "en" # The default contentlanguage, see languages part.
+title: "Zs's Homepage" # default title
 theme: "hugo-academia"
-canonifyURLs : true
+canonifyURLs : true # if use absolute path.
 
 languages:
   en:
@@ -41,7 +41,7 @@ params:
   author_bio: "An undergraduate student in NWPU. Interested in Robotics and CV"
   since: "2019"
   avatar: "https://www.zzsqwq.cn/images/avatar.png"
-  menu:
+  menu: # The navigation bar
     Index:
         name: "Index"
         url: /
@@ -59,7 +59,7 @@ params:
         url: "https://zzsqwq.cn/"
         weight: 4
 
-  # flink picture will load if avator link calls on error
+  # The default avatar if params.avatar not set.
   loading_bg:
     flink: /images/profile.png
 
@@ -115,12 +115,12 @@ params:
     links:
       Google Scholar:
         name: Google Scholar
-        url:  "#"
+        url:  "/"
         icon: "fas fa-graduation-cap"
         weight: 1
       ORCID:
         name: ORCID
-        url: "#"
+        url: "/"
         icon: "fab fa-orcid"
         weight: 2
 
@@ -141,7 +141,6 @@ params:
   CDN_USE:
     css:
       - /css/style.css
-      #    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
       - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # fontawesome 5
     js:
       - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
