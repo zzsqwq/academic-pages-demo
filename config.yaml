@@ -41,7 +41,7 @@ params:
   author_bio: "An undergraduate student in NWPU. Interested in Robotics and CV"
   since: "2019"
   icp: "网ICP备2023114514号"
-  avatar: "/images/avatar.png"
+  avatar: "/images/profile.png"
   favicon: "/images/favicon.ico"  # Please use .ico format
   menu: # The navigation bar
     Index:
