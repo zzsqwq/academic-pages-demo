@@ -16,7 +16,7 @@ homepage: true
 
 [1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 770-778
 
-何凯明太强了！！！ 🤩 
+何恺明太强了！！！ 🤩 
 
 ### Add more informations in your posts…
 
